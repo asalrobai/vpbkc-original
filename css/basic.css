@@ -343,6 +343,7 @@
    .section_last .content .box:not(:last-child) {
       border-left: none;   
     border-bottom: 1px solid #ddd; 
+    }
 }
   .section_last .content .logo-image {
     /* width: 500px;
