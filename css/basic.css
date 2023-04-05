@@ -72,7 +72,7 @@
     text-align: center;
    }
    .soperator-block .container {
-    color: #1eac1e;
+    color: #26803d;
     font-size: 1.3rem;
     margin-bottom: 60px;
     border-bottom: 3px solid #eeeeee;
@@ -82,7 +82,7 @@
 
    }
    .soperator-block .container  .soperator-title .text {
-    border-bottom: 3px solid #1eac1e;
+    border-bottom: 3px solid #26803d;
     padding-bottom: 8px;
    }
   /* End Components */
@@ -144,12 +144,11 @@
   .section_01 .container .president-word .title h4 {
     text-align: center;
     padding-top: 10px;
-    color: #1eac1e;
-    border-bottom: 3px solid #1eac1e;
+    color: #26803d;
+    border-bottom: 3px solid #26803d;
     margin-bottom: 0;
     width: fit-content;
     padding: 5px;
-    color: #1eac1e;
     margin-bottom: -2px;
     margin-right: 25%;
   }
@@ -215,11 +214,11 @@
   }
   .section_02 .container .strategic .title h5 {
     position: relative;
-    border-bottom: 3px solid #1eac1e;
+    border-bottom: 3px solid #26803d;
     margin-bottom: 0;
     width: fit-content;
     padding: 5px;
-    color:#1eac1e;
+    color: #26803d;
     margin-bottom: -2px;
   }
   .section_02 .container .strategic .title h5::before {
@@ -339,12 +338,6 @@
   .section_last .content .box:not(:last-child) {
     border-left: 1px solid #ddd;
   }
-@media(max-width: 767px) {
-   .section_last .content .box:not(:last-child) {
-      border-left: none;   
-    border-bottom: 1px solid #ddd; 
-    }
-}
   .section_last .content .logo-image {
     /* width: 500px;
     height: 300px; */
@@ -385,8 +378,8 @@
   .section_last .content .social-media-icon p img {
     width: 50px;
     height: 50px;
-    margin-left: 10px;
-    margin-right: 60px;
+    /* margin-left: 10px;
+    margin-right: 60px; */
   }
   @media (max-width: 767px) {
     .section_last .content .social-media-icon p img  {
@@ -419,6 +412,18 @@
       /* display: none;; */
        max-width: 100%;
     }
+  }
+  .section_last .Vertical-separator {
+    color: white;
+    height: 2px;
+    background-color: white;
+    padding: 20px 0;
+    width: 2px;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
   /* End Section_last */
   
