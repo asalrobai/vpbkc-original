@@ -70,11 +70,12 @@
    /* Start Components */
    .soperator-block {
     text-align: center;
+    margin-bottom: 60px;
    }
    .soperator-block .container {
     color: #26803d;
     font-size: 1.3rem;
-    margin-bottom: 60px;
+  
     border-bottom: 3px solid #eeeeee;
     line-height: 3;
    }
@@ -93,7 +94,7 @@
   .section_hello img {
     height: 600px;
     width: 100%;
-  }
+}
   /* End Section Hello */
   /* Start Section_01 */
   .section_01 { 
@@ -264,6 +265,74 @@
     }
   }
   /* End Section 02 */
+  /* Start Section Events */
+  .section_events {
+    background-color: #ebebeb;
+    background-color: #fff;
+    padding-bottom: 30px;
+
+  }
+  .section_events .container {
+
+  }
+  .section_events .container .events-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    column-gap: 5px;;
+     }
+  .section_events .container .events-content .event {
+    margin-bottom: 10px;
+  
+  }
+  .section_events .container .events-content .event:hover {
+
+  }
+  .section_events .container .events-content .event .images {
+    text-align: center;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+  }
+  .section_events .container .events-content .event:hover .images {
+     /* Adding Transition From Old File */
+   
+     filter: brightness(50%);
+     transform: scale(1.1);
+  }
+  .section_events .container .events-content .event .images img {
+    border: 2px solid #854030;
+    border: 2px solid #616361;
+    border: 2px solid #9e9e9e;
+
+  }
+  .section_events .container .events-content .event .text {
+    padding: 5px;
+    margin-top: 15px;
+    background-color: #854030;
+    background-color: #ba915e;
+    border-top: 2px solid black;
+    border-bottom: 3px solid black;
+    
+  }
+  .section_events .container .events-content .event .text p {
+    margin-bottom: 0;
+    color: #262626;
+    font-weight: bold;;
+    border-radius: 5px;
+    
+  }
+  .section_events .container .events-content .event .text a {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
+    color:#26803d;
+    color: #854030;
+    transition: 0.5s;
+  }
+  .section_events .container .events-content .event .text a:hover {
+    color: white;
+  }
+  /* End Section Events */
   /* Start Section 03 */
   .section_03 {
     margin-bottom: 60px;
