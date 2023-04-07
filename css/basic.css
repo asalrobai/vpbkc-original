@@ -177,7 +177,8 @@
       /* float:left; */
     }
     .section_01 .container .president-word .info a {
-      
+      /* color: #2e4a8a;
+      font-weight: bold; */
     }
   /* End Section_01 */
   /* Start Section 02 */
@@ -292,6 +293,7 @@
     transition: transform 2s, filter 1.5s ease-in-out;
     transform-origin: center center;
   }
+  
   .section_events .container .events-content .event:hover .images {
      /* Adding Transition From Old File */
    
@@ -302,15 +304,19 @@
     border: 2px solid #854030;
     border: 2px solid #616361;
     border: 2px solid #9e9e9e;
-
+  }
+  @media(max-width: 767px) {
+    .section_events .container .events-content .event .images img {
+      width: 100%;
+    }
   }
   .section_events .container .events-content .event .text {
     padding: 5px;
     margin-top: 15px;
     background-color: #854030;
     background-color: #ba915e;
-    border-top: 2px solid black;
-    border-bottom: 3px solid black;
+    border-top: 2px solid #262626;
+    border-bottom: 3px solid #262626;
     
   }
   .section_events .container .events-content .event .text p {
@@ -326,11 +332,12 @@
     font-weight: bold;
     text-decoration: none;
     color:#26803d;
-    color: #854030;
+    color: #ebebeb;
+    
     transition: 0.5s;
   }
   .section_events .container .events-content .event .text a:hover {
-    color: white;
+    color: #854030;
   }
   /* End Section Events */
   /* Start Section 03 */
