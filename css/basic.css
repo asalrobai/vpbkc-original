@@ -153,6 +153,9 @@
     margin-bottom: -2px;
     margin-right: 25%;
   }
+  .section_01 .container .president-word .title h4 p {
+    color: #26803d;
+  }
   .section_01 .container .president-word .info {
     float: right;
     /* width: calc(100% - 120px); */
